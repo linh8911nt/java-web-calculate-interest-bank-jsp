@@ -18,9 +18,9 @@
 
     float totalMoney = money + money * rate * months;
 %>
-<h1>Amount of loan = <%=money%></h1>
-<h1>Rate = <%=rate%></h1>
-<h1>Months = <%=months%></h1>
-<h1>Total money = <%=totalMoney%></h1>
+<h1>Amount of loan = <%= money %></h1>
+<h1>Rate = <%= rate %></h1>
+<h1>Months = <%= months %></h1>
+<h1>Total money = <%= totalMoney %></h1>
 </body>
 </html>
